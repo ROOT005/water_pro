@@ -1,9 +1,6 @@
 
 */
 @font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -53,7 +50,7 @@ h2 {
 }
 
 a {
-  color: #1784fb;
+  color: #1ca56d;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
@@ -101,9 +98,9 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background: #1784fb;
+  background: #1ca56d;
   color: #fff;
-  border: 2px solid #1784fb;
+  border: 2px solid #1ca56d;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #0477f4 !important;
@@ -111,11 +108,11 @@ a:hover, a:focus, a:active {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #1784fb;
-  border: 2px solid #1784fb;
+  color: #1ca56d;
+  border: 2px solid #1ca56d;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #1784fb;
+  background: #1ca56d;
   color: #fff;
 }
 
@@ -139,9 +136,9 @@ a:hover, a:focus, a:active {
 }
 
 .btn-info {
-  background: #1784fb;
+  background: #1ca56d;
   color: #fff;
-  border: 2px solid #1784fb;
+  border: 2px solid #1ca56d;
 }
 .btn-info:hover, .btn-info:focus, .btn-info:active {
   background: #0477f4 !important;
@@ -149,11 +146,11 @@ a:hover, a:focus, a:active {
 }
 .btn-info.btn-outline {
   background: transparent;
-  color: #1784fb;
-  border: 2px solid #1784fb;
+  color: #1ca56d;
+  border: 2px solid #1ca56d;
 }
 .btn-info.btn-outline:hover, .btn-info.btn-outline:focus, .btn-info.btn-outline:active {
-  background: #1784fb;
+  background: #1ca56d;
   color: #fff;
 }
 
@@ -212,7 +209,7 @@ a:hover, a:focus, a:active {
 }
 
 .lnk-primary {
-  color: #1784fb;
+  color: #1ca56d;
 }
 .lnk-primary:hover, .lnk-primary:focus, .lnk-primary:active {
   color: #0477f4;
@@ -226,7 +223,7 @@ a:hover, a:focus, a:active {
 }
 
 .lnk-info {
-  color: #1784fb;
+  color: #1ca56d;
 }
 .lnk-info:hover, .lnk-info:focus, .lnk-info:active {
   color: #0477f4;
@@ -675,7 +672,7 @@ a:hover .lnk-icon-right {
   *display: inline;
   margin: 0 15px;
   color: rgba(255, 255, 255, 0.5);
-  font-size: 16px;
+  font-size: 1.25em;
   padding: 10px 0;
 }
 @media screen and (max-width: 992px) {
@@ -765,7 +762,7 @@ a:hover .lnk-icon-right {
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav-style-2 #navbar .navbar-nav li a:hover {
-    color: #1784fb;
+    color: #1ca56d;
   }
 }
 .fh5co-nav-style-2 #navbar .navbar-nav li.active {
@@ -776,7 +773,7 @@ a:hover .lnk-icon-right {
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav-style-2 #navbar .navbar-nav li.active a {
-    color: #1784fb;
+    color: #1ca56d;
   }
 }
 .fh5co-nav-style-2 #navbar .navbar-nav.fh5co-social a {
@@ -841,7 +838,7 @@ a:hover .lnk-icon-right {
   *display: inline;
   width: 25px;
   height: 2px;
-  color: #1784fb;
+  color: #1ca56d;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
@@ -898,6 +895,14 @@ a:hover .lnk-icon-right {
   font-weight: 700;
   color: #fff;
 }
+@media screen and (max-width: 480px) {
+  .fh5co-cover .fh5co-cover-text .cover-text-lead {
+    font-size: 30px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 700;
+    color: #fff;
+  }
+}
 .fh5co-cover .fh5co-cover-text .cover-text-sublead {
   font-size: 16px;
   font-family: "Open Sans", Arial, sans-serif;
@@ -914,10 +919,15 @@ a:hover .lnk-icon-right {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+@media screen and (max-width: 480px) {
+  .moreinfo{
+    text-align: center;
+  }
+}
 .fh5co-cover .fh5co-cover-text .btn-outline:hover {
   color: #fff;
-  background: #1784fb;
-  border-color: #1784fb;
+  background: #1ca56d;
+  border-color: #1ca56d;
 }
 .fh5co-cover .fh5co-cover-text .btn-outline:hover, .fh5co-cover .fh5co-cover-text .btn-outline:focus, .fh5co-cover .fh5co-cover-text .btn-outline:active {
   outline: none;
@@ -999,7 +1009,7 @@ a:hover .lnk-icon-right {
   -ms-border-radius: 4px;
   border-radius: 4px;
   position: absolute;
-  background: #1784fb;
+  background: #1ca56d;
   top: 0;
   bottom: 0;
   left: 0;
@@ -1152,7 +1162,7 @@ a:hover .lnk-icon-right {
   bottom: 0;
   right: 0;
   left: 0;
-  background: #1784fb;
+  background: #1ca56d;
   opacity: 0;
   z-index: 2;
 }
@@ -1253,7 +1263,7 @@ a:hover .lnk-icon-right {
 .fh5co-project-style-4 .fh5co-navigation .fh5co-prev a:hover,
 .fh5co-project-style-4 .fh5co-navigation .fh5co-next a:hover,
 .fh5co-project-style-4 .fh5co-navigation .fh5co-all a:hover {
-  color: #1784fb;
+  color: #1ca56d;
 }
 
 .fh5co-project-style-5 {
@@ -1469,7 +1479,7 @@ a:hover .lnk-icon-right {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #1784fb;
+  background: #1ca56d;
   opacity: 0;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -1542,7 +1552,7 @@ a:hover .lnk-icon-right {
   color: #1a1a1a;
 }
 .fh5co-content-style-3 .fh5co-siidear-links li a:hover:before, .fh5co-content-style-3 .fh5co-siidear-links li a:active:before, .fh5co-content-style-3 .fh5co-siidear-links li a:focus:before {
-  background: #1784fb;
+  background: #1ca56d;
 }
 .fh5co-content-style-3 .fh5co-siidear-links li.label {
   color: #cccccc;
@@ -1565,7 +1575,7 @@ a:hover .lnk-icon-right {
   top: 50%;
   margin-top: -4px;
   margin-left: -17px;
-  background: #1784fb;
+  background: #1ca56d;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1578,7 +1588,7 @@ a:hover .lnk-icon-right {
 }
 
 .fh5co-content-style-4 {
-  background: #1784fb;
+  background: #1ca56d;
 }
 .fh5co-content-style-4 .fh5co-sub {
   font-size: 15px;
@@ -1788,7 +1798,7 @@ a:hover .lnk-icon-right {
 
 /* CONTENT STYLE #10 */
 .fh5co-content-style-10 {
-  background: #1784fb;
+  background: #1ca56d;
 }
 .fh5co-content-style-10 h2 {
   margin-top: 20px;
@@ -2281,8 +2291,8 @@ a:hover .lnk-icon-right {
   *display: inline;
 }
 .fh5co-blog-style-1 .fh5co-post .fh5co-post-image .fh5co-category > a:hover {
-  background: #1784fb;
-  border: 1px solid #1784fb;
+  background: #1ca56d;
+  border: 1px solid #1ca56d;
 }
 .fh5co-blog-style-1 .fh5co-post .fh5co-post-image .fh5co-category > a:hover, .fh5co-blog-style-1 .fh5co-post .fh5co-post-image .fh5co-category > a:active, .fh5co-blog-style-1 .fh5co-post .fh5co-post-image .fh5co-category > a:focus {
   text-decoration: none;
@@ -2299,7 +2309,7 @@ a:hover .lnk-icon-right {
   color: #000;
 }
 .fh5co-blog-style-1 .fh5co-post .fh5co-post-text h3 a:hover {
-  color: #1784fb;
+  color: #1ca56d;
 }
 .fh5co-blog-style-1 .fh5co-post .fh5co-post-text h3 a:hover, .fh5co-blog-style-1 .fh5co-post .fh5co-post-text h3 a:active, .fh5co-blog-style-1 .fh5co-post .fh5co-post-text h3 a:focus {
   text-decoration: none;
@@ -2364,7 +2374,7 @@ a:hover .lnk-icon-right {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  color: #1784fb;
+  color: #1ca56d;
 }
 .fh5co-blog-style-2 .link-block p {
   color: gray;
@@ -2432,7 +2442,7 @@ a:hover .lnk-icon-right {
   bottom: 0;
   right: 0;
   left: 0;
-  background: #1784fb;
+  background: #1ca56d;
   opacity: 0;
   z-index: 2;
 }
@@ -2545,7 +2555,7 @@ a:hover .lnk-icon-right {
   padding-right: 10px;
 }
 .fh5co-team-style-2 .fh5co-social li a:hover {
-  color: #1784fb;
+  color: #1ca56d;
 }
 
 .fh5co-team-style-3 .person {
@@ -2595,7 +2605,7 @@ a:hover .lnk-icon-right {
   color: gray;
 }
 .fh5co-team-style-3 .person .social-circle li a:hover {
-  color: #1784fb;
+  color: #1ca56d;
 }
 
 /* 
@@ -2760,7 +2770,7 @@ a:hover .lnk-icon-right {
 }
 .fh5co-footer-style-1 .fh5co-footer-inner .links li a:hover {
   text-decoration: none;
-  color: #1784fb;
+  color: #1ca56d;
 }
 .fh5co-footer-style-1 .fh5co-footer-inner .fh5co-social {
   text-align: right;
@@ -2779,7 +2789,7 @@ a:hover .lnk-icon-right {
 }
 .fh5co-footer-style-1 .fh5co-footer-inner .fh5co-social a:hover {
   text-decoration: none;
-  color: #1784fb;
+  color: #1ca56d;
 }
 
 .fh5co-footer-style-2 {
@@ -3004,7 +3014,7 @@ a:hover .lnk-icon-right {
   font-size: 24px;
   line-height: 0;
   display: table;
-  color: #1784fb;
+  color: #1ca56d;
   width: 56px;
   height: 56px;
   margin-top: -30px;
@@ -3103,7 +3113,7 @@ a:hover .lnk-icon-right {
   font-size: 50px;
   line-height: 50px;
   font-family: "Open Sans", Arial, sans-serif;
-  color: #1784fb;
+  color: #1ca56d;
   margin-bottom: 30px;
 }
 .fh5co-pricing-style-1 .fh5co-price > span {
@@ -3116,7 +3126,7 @@ a:hover .lnk-icon-right {
 .fh5co-pricing-style-1 .fh5co-currency {
   vertical-align: super;
   font-size: 30px !important;
-  color: #1784fb !important;
+  color: #1ca56d !important;
   position: relative;
 }
 .fh5co-pricing-style-1 .fh5co-pricing-item {
@@ -3137,7 +3147,7 @@ a:hover .lnk-icon-right {
   transition: 0.5s;
 }
 .fh5co-pricing-style-1 .fh5co-pricing-item.pricing-feature {
-  border-top: 10px solid #1784fb;
+  border-top: 10px solid #1ca56d;
   z-index: 9;
 }
 .fh5co-pricing-style-1 .fh5co-pricing-item p:last-child {
@@ -3389,7 +3399,7 @@ a:hover .lnk-icon-right {
   *display: inline;
   width: 25px;
   height: 2px;
-  color: #1784fb;
+  color: #1ca56d;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
